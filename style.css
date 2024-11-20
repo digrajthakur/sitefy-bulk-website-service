@@ -110,7 +110,9 @@
                   font-size: 36px;
                   font-weight: 600;
               }
-              
+              .contents-space {
+                  padding: 0 10px;
+              }
               .contents-space h1 {
                   font-family: "Roboto", Sans-serif;
                   font-size: 37px;
