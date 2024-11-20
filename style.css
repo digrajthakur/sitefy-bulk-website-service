@@ -1,0 +1,1421 @@
+              @import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+              body {
+                  font-family: Menlo, Consolas, monaco, monospace;
+                  overflow-x: hidden;
+                  justify-content: center;
+              }
+              
+              .bg-green {
+                  color: #00B474;
+              }
+              
+              button {
+                  padding: 10px 30px;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 38px;
+                  font-weight: 500;
+                  border-radius: 9px 9px 9px 9px;
+                  border: none;
+                  cursor: pointer;
+              }
+              
+              .bg-green button {
+                  background-color: #00B474;
+                  color: #fff;
+                  font-weight: bold;
+              }
+              
+              .container {
+                  width: 85%;
+                  margin: 0 auto;
+              }
+              
+              .hero-content {
+                  text-align: center;
+              }
+              
+              .hero-content img {
+                  margin-top: 30px;
+                  border-radius: 20px;
+              }
+              
+              .hero-content h1 {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 75px;
+                  font-weight: 700;
+                  color: #01334E;
+              }
+              
+              .hero-content p {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 29px;
+                  font-weight: 400;
+              }
+              
+              .hero-content h2 {
+                  color: #01334E;
+                  font-family: "Solitreo", Sans-serif;
+                  font-size: 37px;
+                  font-weight: 600;
+              }
+              
+              .second-section {
+                  display: flex;
+                  padding-top: 50px;
+              }
+              
+              .bulk-content-box {
+                  width: 50%;
+              }
+              
+              .timer-content-box {
+                  width: 50%;
+                  background-color: #F2F2F2;
+              }
+              
+              .content-space {
+                  padding: 40px;
+                  text-align: center;
+              }
+              
+              .content-space {
+                  padding: 0 20px;
+              }
+              
+              .order-list li {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 24px;
+                  font-weight: 400;
+                  color: #7A7A7A;
+              }
+              
+              .order-list p {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 23px;
+                  font-weight: 400;
+                  color: #7A7A7A;
+              }
+              
+              .bold {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 23px;
+                  font-weight: bolder;
+                  color: #7A7A7A;
+              }
+              
+              .content-space h1 {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 36px;
+                  font-weight: 600;
+              }
+              
+              .contents-space h1 {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 37px;
+                  font-weight: 600;
+                  color: #01334E;
+              }
+              
+              .bottom-line {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 21px;
+                  font-weight: 600;
+                  position: relative;
+              }
+              
+              .bottom-line::after {
+                  position: absolute;
+                  content: "";
+                  width: 50%;
+                  height: 1px;
+                  bottom: -13px;
+                  background: #000;
+                  left: 25%;
+              }
+              
+              .order {
+                  text-align: left;
+                  padding: 5px 47px;
+              }
+              
+              .order li {
+                  color: #000000;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 23px;
+                  font-weight: 400;
+                  line-height: 26px;
+              }
+              
+              .btns {
+                  text-align: center;
+                  padding: 80px 0;
+                  padding-bottom: 25px;
+              }
+              
+              .btns button {
+                  margin: 0 auto;
+                  text-align: center;
+                  background-color: #01334E;
+                  color: #fff;
+                  font-weight: bold;
+              }
+              /* timer css start */
+              
+              .timer-container {
+                  text-align: center;
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+              }
+              
+              .time {
+                  display: flex;
+                  justify-content: center;
+                  font-size: 3rem;
+                  font-weight: bold;
+              }
+              
+              .time div {
+                  margin: 0 10px;
+              }
+              
+              .timer {
+                  display: flex;
+                  gap: 10px;
+                  position: relative;
+              }
+              
+              .timer .minutes,
+              .seconds {
+                  color: #9E9E9E;
+                  font-family: "Roboto Slab", Sans-serif;
+                  font-weight: 400;
+                  font-size: 19px;
+                  margin-top: 5px;
+              }
+              
+              .timer-container .time #minutes {
+                  color: #00B474;
+                  font-family: "Roboto", Sans-serif;
+                  font-weight: 500;
+                  font-size: 69px;
+                  background: #fff;
+                  padding: 20px 60px;
+                  position: relative;
+              }
+              
+              .timer-container .time #seconds {
+                  color: #00B474;
+                  font-family: "Roboto", Sans-serif;
+                  font-weight: 500;
+                  font-size: 69px;
+                  background: #fff;
+                  padding: 20px 60px;
+                  position: relative;
+              }
+              
+              div#seconds-text {
+                  position: absolute;
+                  top: -35px;
+                  left: 70px;
+              }
+              
+              div#minutes-text {
+                  position: absolute;
+                  top: -35px;
+                  right: 70px;
+              }
+              /* timer css end */
+              
+              .timer-content-box .service-include {
+                  background-color: #000000;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 36px;
+                  font-weight: 500;
+                  border-radius: 7px 7px 7px 7px;
+                  color: #fff;
+                  width: 55%;
+                  margin: auto;
+                  padding: 9px 0;
+                  margin-top: 50px;
+                  margin-bottom: 25px;
+              }
+              /* overlay css start */
+              
+              .overlay-section {
+                  display: flex;
+              }
+              
+              .bulk-website-content {
+                  width: 60%;
+                  margin: auto;
+                  margin-left: 74px;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 27px;
+                  font-weight: 600;
+              }
+              
+              .image-box {
+                  width: 40%;
+              }
+              
+              .bg-color {
+                  background-color: transparent;
+                  background-image: linear-gradient(90deg, #54595F 0%, #01334E 100%);
+                  border-radius: 20px;
+              }
+              
+              .overlay-section {
+                  background-image: url(https://sitefy.co/wp-content/uploads/2024/09/shape-1.png);
+                  background-repeat: no-repeat;
+                  background-size: auto;
+                  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+              }
+              
+              .book-call-now img {
+                  position: relative;
+                  top: 99px;
+                  right: 80px;
+              }
+              
+              .call button {
+                  background-color: #00B474;
+                  line-height: 1;
+                  font-size: 25px;
+                  padding: 14px 17px;
+                  border-radius: 3px;
+                  color: #fff;
+                  fill: #fff;
+                  text-align: center;
+                  transition: all .3s;
+              }
+              
+              .call-now h1 {
+                  color: #fff;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 45px;
+                  font-weight: 600;
+              }
+              
+              .call button:hover {
+                  color: #01334E;
+              }
+              /* overlay css end */
+              /* usecase css start */
+              
+              .usecase {
+                  padding-top: 80px;
+              }
+              
+              .usecase-content {
+                  text-align: center;
+                  padding-top: 40px;
+                  padding-bottom: 30px;
+              }
+              
+              .usecase-container {
+                  display: grid;
+                  grid-template-columns: repeat(3, 33%);
+                  justify-content: center;
+                  text-align: center;
+              }
+              
+              .usecase-box {
+                  padding: 10px 0;
+              }
+              
+              .usecase-box h1 {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 27px;
+                  font-weight: 600;
+              }
+              
+              .usecase-box p {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 18px;
+                  font-weight: 400;
+                  color: #54595F;
+                  padding: 0 12px;
+              }
+              
+              .usecase-content h1 {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 45px;
+                  font-weight: 600;
+              }
+              
+              .usecase-content p {
+                  text-align: center;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 23px;
+                  color: #54595F;
+                  font-weight: 400;
+              }
+              
+              .usecase-btn {
+                  text-align: center;
+                  margin-top: 40px;
+                  padding-top: 40px;
+                  padding-bottom: 60px;
+              }
+              
+              .usecase-btn button {
+                  background-color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 38px;
+                  font-weight: bold;
+                  border-radius: 6px 6px 6px 6px;
+                  color: #fff;
+              }
+              /* usecase css end */
+              /* multiple-website css start */
+              
+              .multiple-website {
+                  text-align: center;
+              }
+              
+              .multiple-content h1 {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 41px;
+                  font-weight: 600;
+              }
+              
+              .multiple-content .first-para {
+                  color: #00B474;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 19px;
+                  font-weight: 600;
+              }
+              
+              .multiple-content p {
+                  text-align: center;
+                  color: #54595F;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 23px;
+                  font-weight: 400;
+                  padding: 0 54px;
+              }
+              /* multiple website css end */
+              /* empower-brand css start */
+              
+              .empower-brand {
+                  display: flex;
+              }
+              
+              .empower-images,
+              .empower-content {
+                  width: 50%;
+              }
+              
+              .empower-images .img {
+                  padding: 90px;
+                  padding-top: 0;
+              }
+              
+              .empowers h4 {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 27px;
+                  font-weight: 600;
+                  color: #01334E;
+              }
+              
+              .empowers p {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 20px;
+                  font-weight: 400;
+                  margin: -20px 0;
+                  color: #7A7A7A;
+              }
+              
+              .empowers {
+                  position: relative;
+                  margin: 60px 0;
+              }
+              
+              .empowers-1 h4::before {
+                  content: '';
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/Reduced.png?raw=true);
+                  position: absolute;
+                  width: 59px;
+                  height: 80px;
+                  background-repeat: no-repeat;
+                  background-size: 100%;
+                  left: -72px;
+              }
+              
+              .empowers-2 h4::before {
+                  content: '';
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/uniform-design.png?raw=true);
+                  position: absolute;
+                  width: 42px;
+                  height: 80px;
+                  background-repeat: no-repeat;
+                  background-size: 100%;
+                  left: -72px;
+              }
+              
+              .empowers-3 h4::before {
+                  content: '';
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/simplified-project.png?raw=true);
+                  position: absolute;
+                  width: 59px;
+                  height: 80px;
+                  background-repeat: no-repeat;
+                  background-size: 100%;
+                  left: -72px;
+              }
+              
+              .empowers-4 h4::before {
+                  content: '';
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/deliver.png?raw=true);
+                  position: absolute;
+                  width: 59px;
+                  height: 80px;
+                  background-repeat: no-repeat;
+                  background-size: 100%;
+                  left: -72px;
+              }
+              
+              .empowers-5 h4::before {
+                  content: '';
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/quality.png?raw=true);
+                  position: absolute;
+                  width: 59px;
+                  height: 80px;
+                  background-repeat: no-repeat;
+                  background-size: 100%;
+                  left: -72px;
+              }
+              
+              .content-box {
+                  padding: 0 44px;
+              }
+              
+              .contents {
+                  position: relative;
+              }
+              
+              .contents p {
+                  color: #000000;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 23px;
+                  font-weight: 500;
+                  font-style: italic;
+                  width: 80%;
+              }
+              
+              .contents p::before {
+                  content: '';
+                  height: 145px !important;
+                  width: 6px;
+                  background: #01334E;
+                  position: absolute;
+                  left: -22px;
+                  top: -5px;
+                  border-radius: 5px;
+              }
+              /* empower-brand css end */
+              /* tech css start */
+              
+              .tech .bg-image {
+                  display: flex;
+                  width: 85% !important;
+                  margin: auto;
+              }
+              
+              .tech-content {
+                  width: 50%;
+              }
+              
+              .tech-image {
+                  width: 50%;
+              }
+              
+              .tech-box h1 {
+                  background: #6EC1E3;
+                  padding: 6px 15px;
+                  /* height: 44px; */
+                  /* line-height: 44px; */
+                  font-size: 29px;
+                  font-weight: 600;
+                  color: #fff;
+                  border-radius: 10px;
+              }
+              
+              .tech-box .wp {
+                  background-color: #6EC1E3;
+                  font-family: "Roboto", Sans-serif;
+              }
+              
+              .tech-box .shopify {
+                  background-color: #7CB342;
+                  font-family: "Roboto", Sans-serif;
+              }
+              
+              section.container.tech {
+                  background-color: transparent;
+                  background-image: linear-gradient(90deg, #000000 30%, #847575 100%);
+                  opacity: 1;
+                  transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+                  width: 100%;
+              }
+              
+              .tech-box {
+                  padding-top: 78px;
+                  padding-bottom: 0 !important;
+                  padding: 100px 16px;
+                  padding-left: 0;
+              }
+              
+              .tech-box h2 {
+                  color: #FFFFFF;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 40px;
+                  font-weight: 600;
+              }
+              
+              .tech-box .bg-green {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 40px;
+                  font-weight: 600;
+              }
+              /* tech css end */
+              /* why-stefy css start */
+              
+              .choose-sitefy {
+                  text-align: center;
+              }
+              
+              .site-content {
+                  display: flex;
+              }
+              
+              .sitefy-box img {
+                  border-radius: 23px;
+              }
+              
+              .sitefy-box p {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 20px;
+                  font-weight: 300;
+                  color: #7A7A7A;
+                  padding: 0 62px;
+              }
+              
+              .choose-sitefy h1 {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 41px;
+                  font-weight: 600;
+              }
+              /* why-stefy css end */
+              /* sitefy overflow css start */
+              
+              .sitefy-overflow {
+                  text-align: center;
+              }
+              
+              .sitefy-overflow .text-center {
+                  text-align: center;
+              }
+              
+              .sitefy-overflow h1 {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 41px;
+                  font-weight: 600;
+              }
+              
+              .sitefy-overflow p {
+                  text-align: left;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 23px;
+                  font-weight: 400;
+                  line-height: 25px;
+                  color: #7A7A7A;
+              }
+              
+              .overflow-boxs {
+                  display: grid;
+                  grid-template-columns: repeat(3, 33%);
+                  justify-content: center;
+                  /* position: relative; */
+              }
+              
+              .overflow-boxs h1 {
+                  color: #00B474;
+                  font-family: "Inter", Sans-serif;
+                  font-size: 27px;
+                  font-weight: 900;
+                  margin: 7px 0;
+              }
+              
+              .overflow-boxs h4 {
+                  font-size: 27px;
+                  color: #01334E;
+                  font-family: "Roboto", sans-serif;
+                  margin-top: 0;
+                  margin-bottom: 0;
+              }
+              
+              .overflow-boxs p {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 20px;
+                  font-weight: 400;
+                  text-align: left;
+                  margin-bottom: 0;
+                  margin-top: 10px;
+              }
+              
+              .spaces-contents {
+                  text-align: left;
+                  padding: 35px 58px 50px 35px;
+                  color: #7A7A7A;
+                  box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.1);
+                  height: 80%;
+              }
+              
+              .overflow-box {
+                  padding: 35px 35px 35px 35px;
+              }
+              
+              .overflow-box {
+                  position: relative;
+              }
+              
+              .spaces-contents-1::after {
+                  position: absolute;
+                  content: "";
+                  width: 12%;
+                  height: 10%;
+                  left: 94.5%;
+                  top: 47%;
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/arrow.png?raw=true);
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+              }
+              
+              .spaces-contents-2::after {
+                  position: absolute;
+                  content: "";
+                  width: 12%;
+                  height: 10%;
+                  left: 94.5%;
+                  top: 47%;
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/arrow.png?raw=true);
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+              }
+              
+              .spaces-contents-4::after {
+                  position: absolute;
+                  content: "";
+                  width: 12%;
+                  height: 10%;
+                  left: 94.5%;
+                  top: 47%;
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/arrow.png?raw=true);
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+              }
+              
+              .spaces-contents-5::after {
+                  position: absolute;
+                  content: "";
+                  width: 12%;
+                  height: 10%;
+                  left: 94.5%;
+                  top: 47%;
+                  background-image: url(https://github.com/digrajthakur/slick_ecommerce_website/blob/main/arrow.png?raw=true);
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+              }
+              /* sitefy overflow css end *
+
+/* communicate css start */
+              
+              .communicate {
+                  text-align: center;
+                  width: 80%;
+              }
+              
+              .communicate-content {
+                  text-align: left;
+                  display: flex;
+                  flex-wrap: wrap;
+              }
+              
+              .communicate .communicate-contents {
+                  padding-top: 68px;
+                  width: 88%;
+                  margin: auto;
+                  padding-bottom: 40px;
+              }
+              
+              .communicate h1 {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 41px;
+                  font-weight: 600;
+              }
+              /* .communicate-box-1 {
+    width: 50%;
+} */
+              
+              .communicate-box-1 {
+                  width: 50%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: flex-start;
+              }
+              
+              .communicate-box-1 .flex {
+                  display: flex;
+              }
+              
+              .communicate-box-1 .flex h1 {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 31px;
+                  font-weight: 600;
+                  color: #01334E;
+              }
+              
+              .communicate-content p {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 24px;
+                  font-weight: 300;
+                  color: #7A7A7A;
+              }
+              
+              .communicate-box-1 .flex img {
+                  width: 40px;
+                  height: 50px;
+                  margin-top: 20px;
+                  padding: 0px 13px;
+              }
+              /* communicate css end */
+              /* dedicate-team css start */
+              
+              .dedicate-team {
+                  text-align: center;
+              }
+              
+              .dedicate-team h1 {
+                  color: #01334E;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 41px;
+                  font-weight: 600;
+              }
+              
+              .dedicate-team p {
+                  text-align: center;
+                  color: #54595F;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 23px;
+                  font-weight: 400;
+              }
+              
+              .dedicate-team-content {
+                  display: flex;
+                  flex-wrap: wrap;
+                  margin: auto;
+                  justify-content: center;
+                  align-items: center;
+              }
+              
+              .team-box {
+                  width: 33%;
+              }
+              
+              .team-box .team-1 h1 {
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 30px;
+                  font-weight: 600;
+                  color: #01334E;
+              }
+              
+              .team-box .team-1 {
+                  padding: 15px;
+              }
+              /* dedicate-team css end */
+              
+              .sitefy-section {
+                  text-align: center;
+              }
+              
+              .sitefy-section h1 {
+                  color: #000000;
+                  font-size: 45px;
+                  font-weight: 600;
+                  font-family: "Roboto", sans-serif;
+              }
+              
+              .sitefy-section p {
+                  color: rgba(0, 0, 0, 0.48);
+                  /* font-size: 20px; */
+                  font-weight: 300;
+                  font-family: "Roboto", sans-serif;
+                  width: 57%;
+                  margin: auto;
+                  font-size: 20px;
+                  line-height: 33px;
+                  width: 83%;
+              }
+              
+              .mobile {
+                  display: none;
+              }
+              
+              .desktop {
+                  display: block;
+              }
+              /* media queries start */
+              
+              @media only screen and (max-width:360px) {
+                  .empowers-1 h4::before {
+                      height: 134px !important;
+                      bottom: 53px !important;
+                  }
+                  .contents p::before {
+                      height: 200px !important;
+                  }
+              }
+              
+              @media only screen and (max-width:768px) {
+                  .container {
+                      width: 90%;
+                  }
+                  .hero-content h2 {
+                      font-size: 20px;
+                      letter-spacing: -0.6px;
+                  }
+                  .hero-content h1 {
+                      font-family: "Roboto", Sans-serif;
+                      font-weight: 700;
+                      color: #01334E;
+                      font-size: 37px;
+                      letter-spacing: -1.8px;
+                  }
+                  .hero-content p {
+                      color: #01334E;
+                      font-family: "Roboto", Sans-serif;
+                      font-weight: 400;
+                      font-size: 17px;
+                      letter-spacing: 0px;
+                  }
+                  button {
+                      padding: 11px 16px;
+                      font-family: "Roboto", Sans-serif;
+                      border-radius: 6px 6px 6px 6px;
+                      font-size: 27px !important;
+                  }
+                  .second-section {
+                      display: flex;
+                      flex-direction: column;
+                      flex-wrap: wrap;
+                      padding-top: 20px;
+                  }
+                  .bulk-content-box {
+                      width: 100%;
+                  }
+                  .timer-content-box {
+                      width: 100%;
+                  }
+                  .timer-content-box .service-include {
+                      font-size: 19px;
+                      font-weight: 600;
+                      width: 76%;
+                      padding: 12px 0;
+                      margin-top: 30px;
+                  }
+                  .timer-container .time #minutes {
+                      font-weight: 600;
+                      font-size: 33px;
+                      padding: 40px 40px;
+                  }
+                  .timer-container .time #seconds {
+                      font-weight: 600;
+                      font-size: 33px;
+                      padding: 40px 40px;
+                  }
+                  .timer .minutes,
+                  .seconds {
+                      font-size: 14px;
+                  }
+                  div#minutes-text {
+                      top: -30px;
+                      right: 44px;
+                  }
+                  div#seconds-text {
+                      top: -30px;
+                      left: 45px;
+                  }
+                  .bottom-line {
+                      font-size: 18px;
+                  }
+                  .order {
+                      padding: 0;
+                  }
+                  .order li {
+                      font-size: 19px;
+                      text-align: left;
+                      margin-left: -16px;
+                  }
+                  .btns button {
+                      font-size: 33px;
+                  }
+                  .overlay-section {
+                      flex-direction: column;
+                      justify-content: center;
+                      align-items: center;
+                  }
+                  .bulk-website-content {
+                      margin: auto;
+                      width: 100%;
+                      font-weight: 600;
+                      text-align: center;
+                      padding-top: 30px;
+                  }
+                  .call-now h1 {
+                      font-size: 24px;
+                      letter-spacing: -1.6px;
+                      word-spacing: 0.1em;
+                  }
+                  .mobile {
+                      display: block;
+                      padding: 0 10px;
+                  }
+                  .desktop {
+                      display: none;
+                  }
+                  .image-box {
+                      width: 60%;
+                  }
+                  .book-call-now img {
+                      top: 85px;
+                      right: 0;
+                      margin: auto;
+                  }
+                  .usecase-container {
+                      grid-template-columns: repeat(1, 100%);
+                  }
+                  .empower-brand {
+                      flex-direction: column;
+                  }
+                  .tech .bg-image {
+                      width: 85% !important;
+                      margin: auto;
+                      flex-direction: column;
+                  }
+                  .site-content {
+                      flex-direction: column;
+                  }
+                  .overflow-box {
+                      padding: 0;
+                  }
+                  .communicate-content {
+                      flex-direction: column;
+                  }
+                  .team-box {
+                      width: 100%;
+                  }
+                  .dedicate-team-content {
+                      flex-direction: column;
+                  }
+                  .communicate-box-1 {
+                      width: 100%;
+                  }
+                  .communicate h1 {
+                      font-size: 24px;
+                  }
+                  .communicate-content p {
+                      font-size: 17px;
+                  }
+                  .tech-content {
+                      width: 100%;
+                  }
+                  .tech-image {
+                      width: 100%;
+                  }
+                  .sitefy-section p {
+                      width: 100%;
+                  }
+                  .empower-images,
+                  .empower-content {
+                      width: 100%;
+                  }
+                  .bg-green button {
+                      padding: 10px 20px;
+                  }
+                  .contents-space h1 {
+                      font-size: 30px;
+                  }
+                  .content-space h1 {
+                      font-size: 30px;
+                  }
+                  .contents-space {
+                      padding: 0 17px;
+                  }
+                  .call button {
+                      font-size: 22px !important;
+                      padding: 13px 20px;
+                  }
+                  .usecase-content h1 {
+                      font-size: 32px;
+                      letter-spacing: -1.6px;
+                      word-spacing: 0.1em;
+                  }
+                  .usecase-content p {
+                      font-weight: 400;
+                      font-size: 17px;
+                      line-height: 1.1em;
+                  }
+                  .usecase-btn {
+                      margin-top: 25px;
+                      padding-bottom: 43px;
+                  }
+                  .multiple-content .first-para {
+                      color: #00B474;
+                      font-family: "Roboto", Sans-serif;
+                      font-size: 19px;
+                      font-weight: 500;
+                  }
+                  .multiple-content p {
+                      font-size: 20px;
+                      padding: 0;
+                  }
+                  .empower-images .img {
+                      padding: 20px;
+                  }
+                  .contents p {
+                      width: 94%;
+                      margin-left: 20px;
+                  }
+                  .contents p::before {
+                      height: 223px !important;
+                      width: 6px;
+                      left: 2px;
+                      top: -5px;
+                      border-radius: 4px;
+                  }
+                  .content-box {
+                      padding: 0;
+                  }
+                  .empowers {
+                      margin: 90px 0;
+                  }
+                  .empowers-1 h4::before {
+                      width: 45px;
+                      height: 75px;
+                      left: 0;
+                      bottom: 56px;
+                  }
+                  .empowers-2 h4::before {
+                      width: 25px;
+                      height: 63px;
+                      left: 0;
+                      bottom: 121px;
+                  }
+                  .empowers-3 h4::before {
+                      width: 45px;
+                      height: 75px;
+                      left: 0;
+                      bottom: 82px;
+                  }
+                  .empowers-4 h4::before {
+                      width: 45px;
+                      height: 75px;
+                      left: 0;
+                      bottom: 82px;
+                  }
+                  .empowers-5 h4::before {
+                      width: 40px;
+                      height: 81px;
+                      left: 0;
+                      top: -53px;
+                  }
+                  .spaces-contents {
+                      padding: 35px 20px 30px 35px;
+                  }
+                  .content-box {
+                      padding: 0;
+                      padding-top: 93px;
+                  }
+              }
+              
+              .titliyan {
+                  display: flex;
+              }
+              
+              .testimonials {
+                  display: flex;
+                  padding: 1px 117px;
+                  justify-content: center;
+                  align-items: center;
+                  text-align: left;
+                  padding: 0;
+              }
+              
+              .testimonial-head {
+                  width: 40%;
+              }
+              
+              .testimonial-head h1 {
+                  color: #FFFFFF;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 53px;
+                  font-weight: 600;
+              }
+              
+              .titliyan {
+                  width: 60%;
+              }
+              
+              .slick-dotted.slick-slider {
+                  position: relative;
+              }
+              
+              .testimonial-bg {
+                  background-color: #01334E;
+                  background-image: url(https://sitefy.co/wp-content/uploads/2024/09/testimonial-1.png);
+                  background-position: center center;
+                  background-repeat: no-repeat;
+                  padding: 100px 0;
+              }
+              
+              .carousal {
+                  text-align: center;
+              }
+              
+              .carousal p {
+                  color: #FFFFFF;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 22px;
+                  font-weight: 400;
+                  line-height: 26px;
+                  font-style: italic;
+                  padding: 0px 42px;
+              }
+              
+              .carousal h1 {
+                  color: #FDFDFD;
+                  font-family: "Roboto", Sans-serif;
+                  font-size: 28px;
+                  font-weight: 600;
+              }
+              
+              .slick-dots li.slick-active button:before {
+                  color: #fff !important;
+              }
+              
+              .slick-dots li button:before {
+                  color: #fff !important;
+                  font-size: 8px !important;
+              }
+              
+              .slick-dots li {
+                  width: 8px !important;
+              }
+              
+              @media only screen and (min-width:460px) and (max-width:768px) {
+                  .empowers-2 h4::before {
+                      width: 21px;
+                      height: 61px;
+                      bottom: 94px;
+                  }
+                  .empowers-3 h4::before {
+                      width: 37px;
+                      height: 56px;
+                      bottom: 66px;
+                  }
+                  .empowers-4 h4::before {
+                      width: 39px;
+                      height: 59px;
+                      bottom: 80px;
+                  }
+              }
+              
+              @media only screen and (max-width:1024px) {
+                  .testimonials {
+                      flex-direction: column;
+                      padding: 0;
+                  }
+                  .testimonial-head {
+                      width: 100%;
+                      text-align: center;
+                  }
+                  .titliyan {
+                      width: 100%;
+                  }
+                  .slick-prev {
+                      left: 0 !important;
+                      font-size: 0 !important;
+                  }
+                  .slick-next {
+                      right: 0 !important;
+                      font-size: 0 !important;
+                  }
+                  .testimonial-bg {
+                      padding: 50px 0;
+                  }
+                  .testimonial-head h1 {
+                      font-size: 48px;
+                  }
+                  .overflow-box {
+                      margin: 40px 0 !important;
+                  }
+                  .spaces-contents-1::after,
+                  .spaces-contents-2::after,
+                  .spaces-contents-3::after,
+                  .spaces-contents-4::after,
+                  .spaces-contents-5::after {
+                      position: absolute;
+                      content: '';
+                      width: 46px;
+                      height: 45px;
+                      left: 44%;
+                      background-image: url('https://github.com/digrajthakur/slick_ecommerce_website/blob/main/image%20(1).png?raw=true');
+                      top: 263px;
+                  }
+                  .overflow-boxs {
+                      grid-template-columns: repeat(1, 100%);
+                      justify-content: center;
+                  }
+                  .overlay-section {
+                      flex-direction: column;
+                      justify-content: center;
+                      align-items: center;
+                  }
+                  .book-call-now img {
+                      top: 85px;
+                      right: 0;
+                      margin: auto;
+                  }
+                  .image-box {
+                      width: 60%;
+                  }
+                  .bulk-website-content {
+                      margin: auto;
+                      width: 100%;
+                      font-weight: 600;
+                      text-align: center;
+                      padding-top: 30px;
+                  }
+                  .mobile {
+                      display: block;
+                      padding: 0 10px;
+                  }
+                  .desktop {
+                      display: none;
+                  }
+                  .call-now h1 {
+                      font-size: 43px;
+                  }
+                  .timer-content-box .service-include {
+                      font-size: 23px;
+                      padding: 10px 5px;
+                  }
+                  .order {
+                      padding: 5px 0;
+                  }
+                  .content-space h1 {
+                      font-size: 32px;
+                  }
+                  .timer-container .time #seconds {
+                      padding: 20px 45px;
+                  }
+                  .timer-container .time #minutes {
+                      padding: 20px 45px;
+                  }
+              }
+              
+              @media only screen and (max-width:680px) {
+                  .spaces-contents-1::after,
+                  .spaces-contents-2::after,
+                  .spaces-contents-3::after,
+                  .spaces-contents-4::after,
+                  .spaces-contents-5::after {
+                      top: 285px !important;
+                  }
+              }
+              
+              @media only screen and (max-width:525px) {
+                  .spaces-contents-1::after,
+                  .spaces-contents-2::after,
+                  .spaces-contents-3::after,
+                  .spaces-contents-4::after,
+                  .spaces-contents-5::after {
+                      top: 330px !important;
+                  }
+              }
+              
+              @media only screen and (max-width:425px) {
+                  .spaces-contents-1::after,
+                  .spaces-contents-2::after,
+                  .spaces-contents-3::after,
+                  .spaces-contents-4::after,
+                  .spaces-contents-5::after {
+                      top: 334px !important;
+                  }
+              }
+              
+              @media only screen and (max-width:400px) {
+                  .spaces-contents-1::after,
+                  .spaces-contents-2::after,
+                  .spaces-contents-3::after,
+                  .spaces-contents-4::after,
+                  .spaces-contents-5::after {
+                      top: 367px !important;
+                      width: 40px;
+                      height: 36px;
+                  }
+              }
+              
+              @media only screen and (max-width:315px) {
+                  .spaces-contents-1::after,
+                  .spaces-contents-2::after,
+                  .spaces-contents-3::after,
+                  .spaces-contents-4::after,
+                  .spaces-contents-5::after {
+                      top: 411px !important;
+                  }
+              }
+              
+              @media only screen and (min-width:769px) and (max-width:1024px) {
+                  .spaces-contents-1::after,
+                  .spaces-contents-2::after,
+                  .spaces-contents-3::after,
+                  .spaces-contents-4::after,
+                  .spaces-contents-5::after {
+                      top: 345px !important;
+                  }
+                  .flexss h1 {
+                      font-size: 23px;
+                  }
+                  .communicate-content p {
+                      font-family: "Roboto", Sans-serif;
+                      font-size: 15px;
+                  }
+                  div#minutes-text {
+                      right: 55px;
+                  }
+                  div#seconds-text {
+                      left: 55px;
+                  }
+                  .empower-brand {
+                      flex-direction: column;
+                  }
+                  .empower-images .img {
+                      padding: 121px;
+                  }
+                  .empower-images,
+                  .empower-content {
+                      width: 100%;
+                  }
+              }
